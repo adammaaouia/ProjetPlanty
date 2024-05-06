@@ -13,3 +13,41 @@ Updated: 2024-04-14 14:33:02
 .admin-menu-item {
     display: none;
 }
+
+.bordure { 
+    border-radius:0% 0% 50% 50% / 88% 88% 6% 6% 
+}
+
+@media only screen and (min-width: 800px){
+    .deux-colonnes {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .colonne {
+      flex: 1;
+    }
+    
+    .separator {
+      width: 1px;
+      background-color: white;
+      margin: 20px 100px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      margin-bottom: 40px;
+    }
+     .bouton-commander {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        
+     }
+        
+    }
